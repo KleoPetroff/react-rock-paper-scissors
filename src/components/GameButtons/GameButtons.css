@@ -1,0 +1,10 @@
+.game-buttons {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.game-buttons img {
+    display: inline-block;
+    margin-left: 60px;
+    cursor: pointer;
+}
