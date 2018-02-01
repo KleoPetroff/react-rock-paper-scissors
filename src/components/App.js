@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import GameInfo from './GameInfo/GameInfo';
+import CurrentGame from "./CurrentGame/CurrentGame";
 
 import './App.css';
 
@@ -27,6 +28,10 @@ class App extends Component {
           wins={this.state.wins}
           losses={this.state.losses}
           draws={this.state.draws}
+        />
+
+        <CurrentGame
+          currentGameResult={this.state.currentGameResult}
         />
       </div>
 

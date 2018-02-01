@@ -1,0 +1,13 @@
+.current-game {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.win-text {
+    color: #008000;
+}
+
+.loss-text {
+    color: #ff0000;
+}
