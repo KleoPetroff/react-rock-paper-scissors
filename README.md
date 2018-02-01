@@ -2,13 +2,13 @@
 
 The following project implements the Rock, Paper Scissors game.
 
-Using technologies:
+Technology stack:
 
 - React 16.2
 - ES6
-- Jest and Enzyme for testing
+- Jest and Enzyme
 
-Tested on the the latest versions of Chrome, Firefox and Edge.
+Tested on the latest versions of Chrome, Firefox and Edge.
 
 ## Installation:
 
