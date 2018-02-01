@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 import GameInfo from './GameInfo/GameInfo';
-import GameButtons from './Buttons/GameButtons';
+import GameButtons from './GameButtons/GameButtons';
 import CurrentGame from "./CurrentGame/CurrentGame";
+
+import {getRandomChoice, getWinner} from '../utils';
 
 import './App.css';
 
@@ -18,6 +20,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = initialState;
+
+    this.onPlayerChoiceClick = this.onPlayerChoiceClick.bind(this);
   }
 
   onPlayerChoiceClick(choice) {
