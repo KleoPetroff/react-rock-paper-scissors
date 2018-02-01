@@ -1,0 +1,9 @@
+.app {
+    width: 100%;
+    font-family: 'Rammetto One', sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 5em;
+}
