@@ -1,0 +1,20 @@
+.game-info {
+    width: 100%;
+    text-align: center;
+}
+
+.game-wins,
+.game-losses,
+.game-draws {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 2em;
+}
+
+.wins-color {
+    color: #008000;
+}
+
+.losses-color {
+    color: #ff0000;
+}

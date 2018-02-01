@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import GameInfo from './GameInfo/GameInfo';
+
 import './App.css';
 
 const initialState = {
@@ -20,6 +22,12 @@ class App extends Component {
     return (
       <div className="app">
         <h2 className="title">Rock Paper Scissors</h2>
+
+        <GameInfo
+          wins={this.state.wins}
+          losses={this.state.losses}
+          draws={this.state.draws}
+        />
       </div>
 
     );
