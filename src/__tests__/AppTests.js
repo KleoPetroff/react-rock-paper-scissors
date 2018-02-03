@@ -10,7 +10,7 @@ import CurrentGame from "../components/CurrentGame/CurrentGame";
 configure({adapter: new Adapter() });
 
 
-describe('Buttons', () => {
+describe('App', () => {
   let wrapper;
 
   beforeEach(() => {

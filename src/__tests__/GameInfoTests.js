@@ -7,7 +7,7 @@ import GameInfo from '../components/GameInfo/GameInfo';
 
 configure({adapter: new Adapter() });
 
-describe('Buttons', () => {
+describe('GameInfo', () => {
   let wrapper;
 
   beforeEach(() => {
