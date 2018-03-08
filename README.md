@@ -1,5 +1,7 @@
 ## React Rock Paper Scissors Game
 
+![Rock Paper Scissors](repo/screen.png?raw=true "Rock Paper Scissors")
+
 The following project implements the Rock, Paper Scissors game.
 
 Technology stack:
